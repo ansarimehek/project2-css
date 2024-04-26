@@ -9,11 +9,57 @@ body {
 
 .bg-img{
     color:#181414;
-    height: 250px;
+    /* height: 250px;  */
     background-image: url(assets/images.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 200px;
 }
 
+h5 {
+    color:rgb(15, 12, 233);
+}
+
+.testing {
+    color:rgb(24, 38, 236);
+}
+
+#testing-para1 {
+    font-size: 22px;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+font-apply {
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.tranformation-apply {
+    text-transform: uppercase;
+}
  
+.decoration-apply {
+    text-decoration: underline;
+}
+
+.text-atag-in-para {
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+.apply-all-ftd {
+    letter-spacing: 25px;
+    word-spacing: 22px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.change-w {
+    font-size: 52px;
+    color: #f1870d;
+    text-transform: uppercase;
+}
