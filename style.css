@@ -1,5 +1,5 @@
 body {
-    background-color:#fff;
+    background-color:#d3f5f7;
     /* background-image: url(images/body-bgpng)*/
     background-repeat: no-repeat;
     /*background-position: center;*/
@@ -8,32 +8,32 @@ body {
 }
 
 .bg-img{
-    color:#181414;
+    background-image: url(assets/image.jpg);
+    color:#f7f0f0;
     /* height: 250px;  */
-    background-image: url(assets/images.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 200px;
+    background-size: 1288px 500px;      
+    padding: 50px;
 }
 
 h5 {
-    color:rgb(15, 12, 233);
+    color:rgb(189, 12, 233);
 }
 
 .testing {
-    color:rgb(24, 38, 236);
+    color:rgb(201, 24, 236);
 }
 
 #testing-para1 {
-    font-size: 22px;
-    font-weight: 500px;
+    font-size: 20px;
+    font-weight: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
 
 font-apply {
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -55,7 +55,7 @@ font-apply {
     letter-spacing: 25px;
     word-spacing: 22px;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .change-w {
