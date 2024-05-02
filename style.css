@@ -1,8 +1,8 @@
 body {
-    background-color:#d3f5f7;
+    background-color:#fbfcfc;
     /* background-image: url(images/body-bgpng)*/
     background-repeat: no-repeat;
-    /*background-position: center;*/
+    background-position: center;
     /*background-size: cover;*/
     background-size: cover;
 }
@@ -10,10 +10,11 @@ body {
 .bg-img{
     background-image: url(assets/image.jpg);
     color:#f7f0f0;
-    /* height: 250px;  */
+    height: 250px;  
     background-repeat: no-repeat;
     background-size: 1288px 500px;      
     padding: 50px;
+    height: 100vh;
 }
 
 h5 {
@@ -40,15 +41,19 @@ font-apply {
 
 .tranformation-apply {
     text-transform: uppercase;
+    text-transform: capitalize;
+    /*text-transform: lowercase;*/
+    /*text-transform: none;*/
 }
  
 .decoration-apply {
     text-decoration: underline;
+
 }
 
 .text-atag-in-para {
     text-decoration: none;
-    color:blanchedalmond;
+    color: darkcyan;
 }
 
 .apply-all-ftd {
@@ -66,12 +71,17 @@ font-apply {
 
 ul{
     list-style-type: square;
-    /*list-style-image: url;*/
-    /*list-style:none;*/
-    /*list-style-position: inside;*/
+    list-style-image: url(assets/assets.jpg);
+    list-style:none;
+    list-style-position: inside;
     /*list-style-position: outside;*/
 }
 
+ul{
+    list-style-type: none;
+    list-style-image: url(assets/assets.jpg);
+    list-style-position: outside;
+}
 div.b-color {
     background-color: burlywood;
 }
@@ -88,17 +98,23 @@ div.third {
     opacity: 0.6;
 }
 
-/* .bg-1{
-    background-image: url;
+.bg-1{
+    background-image: url("assets/image.jpg");
     background-repeat: no repeat;
-} */
+} 
 
-/*.border-property {
+ul {
+    font-size: 200%;
+    list-style-image: linear-gradient(to left bottom, red, blue);
+  }
+.border-property {
     border-style:dotted;
     border-style:solid;
-     border-width:10px;
-     border-color:red;
-}*/
+    border-width:10px;
+    border-color:red;
+    border-radius: 30px;
+    border: 10px solid orchid;
+}
 
 .padding-margin-property{
     border:3px solid red;
@@ -107,38 +123,30 @@ div.third {
     margin-bottom: 100px;
     margin-left: 100px; 
     margin-right: 100px;
-    margin:90px 50px 100px 30px
-    margin:100px 20px*/
+    margin:90px 50px 100px 30px;
+    margin:100px 20px;*/
 
     padding: 50px;
     /*padding: 100px 50px;*/
-    /*padding: 100px 20px 50px 60px;*/
+    padding: 10px 20px 50px 60px;
     /*padding-top: 10px;*/
     /*padding-bottom:20px*/
     /*padding-right:30px*/
     /*padding-left:50px*/
 }
 
-.banner-img {
+.image.jpg-img {
     width: 100px;
     height: 50px;
     /*float: right;*/
-    /*float: left;*/
+    float: left;
 }
 
 .display-apply {
-    /* display: none;*/
+    display: none;
     visibility:hidden
 }
 
-.apply-position {
-    position:fixed;
-    /*position:absolute*/
-    top: 150px;
-    /*bottom: 100px;
-    left: 20px;
-    right: 10px*/
-}
 
     
 
